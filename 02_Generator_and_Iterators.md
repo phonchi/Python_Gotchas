@@ -56,4 +56,4 @@ g = (n*2 for n in range(1000))  # Generator expression
 ```
 
 The size of used memory will reduce for generator version, however, we can not index it. It has beneficial in sum(), max(), etc 
-as mentioned in ![PEP289](https://www.python.org/dev/peps/pep-0289/)
+as mentioned in [PEP289](https://www.python.org/dev/peps/pep-0289/)
