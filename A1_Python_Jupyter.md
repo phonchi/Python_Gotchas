@@ -1,3 +1,9 @@
+## Generate download link
+from IPython.display import FileLink
+%cd xxx
+FileLink('data/'+filename)
+
+
 ## How to auto reload extrnal modules
 ```
 # for auto-reloading external modules
@@ -6,7 +12,7 @@
 %autoreload 2
 ```
 
-### Control Matplot
+## Control Matplot
 ```
 %matplotlib inline
 plt.rcParams['figure.figsize'] = (10.0, 8.0) # set default size of plots
