@@ -1,8 +1,9 @@
 ## Generate download link
+```
 from IPython.display import FileLink
 %cd xxx
 FileLink('data/'+filename)
-
+```
 
 ## How to auto reload extrnal modules
 ```
